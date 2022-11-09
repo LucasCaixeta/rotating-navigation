@@ -22,7 +22,7 @@ body {
 }
 
 .container.show-nav {
-  transform: rotate(-10deg);
+  transform: rotate(-20deg);
 }
 
 .circle-container {
@@ -38,6 +38,10 @@ body {
   border-radius: 50%;
   position: relative;
   transition: transform 0.5s linear;
+}
+
+.container.show-nav .circle {
+  transform: rotate(-70deg);
 }
 
 .circle button {
@@ -107,7 +111,7 @@ nav ul li + li + li {
 }
 
 .content img {
-  max-width: 100%;
+  max-width: 20%;
 }
 
 .content {
